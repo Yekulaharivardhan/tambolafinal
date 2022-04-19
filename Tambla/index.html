@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Alert Popup Box</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <script src="https://kit.fontawesome.com/d8fd5201f9.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.click').click(function(){
+          $('.popup_box').css("display", "block");
+        });
+        $('.btn1').click(function(){
+          $('.popup_box').css("display", "none");
+        });
+        $('.btn2').click(function(){
+          $('.popup_box').css("display", "none");
+          location.reload
+        });
+      });
+
+    </script>
+
+  </head>
+  <body>
+    <a href="#" class="click">Submit</a>
+    <div class="popup_box">
+
+
+
+
+
+      <i class="fa-solid fa-check"></i>
+      <h1>Hurray You Win</h1>
+      <label>Do you want to Play Again</label>
+      <div class="btns">
+        
+        <a href="#" class="btn2">Play</a>
+        <a href="#" class="btn1">Cancel</a>
+      </div>
+    </div>
+    
+  </body>
+</html>

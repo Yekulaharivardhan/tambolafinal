@@ -1,0 +1,41 @@
+* {
+    font-family: roboto;
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #05595B;
+    color: white;
+  }
+  #submit {height: 50px;
+    margin-left: -250px;
+
+    margin-top: 90px;
+    width: 100px;
+    border: 1px solid rgb(0, 88, 59);
+    float: left;}
+
+
+  button {
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    float: left;
+  }
+
+  
+  
+  #ticket {
+    width: 450px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 70px;
+    color: #FF8AAE;
+  }
+  
+  #link {
+    color: purple;
+  }
+
+  

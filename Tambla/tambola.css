@@ -1,0 +1,32 @@
+body{background-color: #05595B;text-align: center;margin-top: 50px;font-family: roboto;}
+
+#number{font-size: 80px ; color: #F0A500;}
+#dropdown{width: fit-content;  }
+
+
+
+
+
+  button {
+    border: radius 10px;
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;    
+    font-size:22px;
+  
+  }
+  
+
+  h1 {font-family: roboto;
+    font-size: 70px;
+    font-weight: bolder;
+    color: #FF8AAE;
+  }
+  
+  #text {
+    color: #F0A500;
+    font-size: 40px;
+  } 
+  
